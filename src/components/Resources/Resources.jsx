@@ -16,7 +16,7 @@ const Resources = ({ post }) => {
         event.preventDefault();
         setLoading(true); // Set loading to true when starting the search
         try {
-            const response = await axios.post('https://quiz-backend-eta.vercel.app/search', { text: searchText });
+            const response = await axios.post('https://quiz-backend-aikcrhvme-sabat-alis-projects.vercel.app/search', { text: searchText });
             setSearchResults(response.data.results);
         } catch (error) {
             console.error('An error occurred:', error);
