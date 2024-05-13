@@ -40,9 +40,9 @@ function Header() {
 
 
     return (
-        <header className='py-3 mb-[2px]  shadow-2xl  shadow-[#2c4164] bg-gradient-to-r from-[#2c4164] to-[#583544]  '>
+        <header className='py-3 mb-[2px] shadow-2xl  shadow-[#2c4164] bg-gradient-to-r from-[#2c4164] to-[#583544]  '>
             <Container>
-                <nav className='flex'>
+                <nav className='flex z-10 relative'>
                     <div className='mr-4'>
                         <Link to='/'>
                             <Logo width='70px' />
